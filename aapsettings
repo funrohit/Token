@@ -1,0 +1,16 @@
+{
+  "AppSettings": {
+    "Token": "my top tokens and i doo job"
+  },
+
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*",
+  "ConnectionStrings": {
+    "con": "Data Source=CHETUIWK1423\\MSSQL2019;Initial Catalog=Token;Integrated Security=True"
+  }
+}
