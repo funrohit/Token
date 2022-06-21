@@ -1,0 +1,16 @@
+using System.ComponentModel.DataAnnotations;
+
+namespace TokenTest.db
+{
+    public class User
+    {
+        [Key]
+        public int Id { get; set; }
+
+        public string UserName { get; set; } =String.Empty;
+
+        public byte[] PasswordHash { get; set; }
+
+        public byte[] PasswordSault { get; set; }
+    }
+}
